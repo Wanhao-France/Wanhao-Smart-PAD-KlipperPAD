@@ -18,7 +18,7 @@ markdown_extensions:
       permalink: True
       toc_depth: 6
   - attr_list
-  - mdx_partial_gfm
+  #- mdx_partial_gfm
   - markdown_include
   - mdx_truly_sane_lists
   - mdx_breakless_lists

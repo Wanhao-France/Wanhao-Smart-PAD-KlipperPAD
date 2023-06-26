@@ -13,15 +13,15 @@ use_directory_urls: False
 #site_dir: '../../site/'
 
 # Custom markdown dialect settings
-markdown_extensions:
-  - toc:
-      permalink: True
-      toc_depth: 6
-  - attr_list
-  #- mdx_partial_gfm
-  - markdown_include
-  - mdx_truly_sane_lists
-  - mdx_breakless_lists
+#markdown_extensions:
+#  - toc:
+#      permalink: True
+#      toc_depth: 6
+#  - attr_list
+#  - mdx_partial_gfm
+#  - markdown_include
+#  - mdx_truly_sane_lists
+#  - mdx_breakless_lists
 plugins:
   search:
     lang: en
@@ -30,7 +30,7 @@ plugins:
       on_page_markdown: "docs._klipper3d.mkdocs_hooks:transform"
   exclude:
     glob: "README.md"
-  mkdocs-material :
+#  mkdocs-material :
 
 # Website layout configuration (using mkdocs-material theme)
 theme:

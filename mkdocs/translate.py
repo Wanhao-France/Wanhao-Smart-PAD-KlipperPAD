@@ -3,7 +3,7 @@ import glob
 import openai
 
 # Votre clé d'API OpenAI
-openai.api_key = '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'
+openai.api_key = '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'
 
 # Chemin vers le dossier "docs"
 docs_folder = 'docs/'
